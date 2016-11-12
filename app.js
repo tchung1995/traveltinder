@@ -4,6 +4,7 @@
 
 var express = require('express');
 var http = require('http');
+var https=require('https');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
@@ -40,7 +41,7 @@ app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
 app.get('/add', add.addFriend);
-app.get('/country:name', country.searchCountry);
+app.get('/country/:name', country.searchCountry);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

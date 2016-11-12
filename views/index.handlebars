@@ -21,7 +21,7 @@
 	<div class="friend">
 	{{#each friends}}    
         <img class="img-responsive" src="{{imageURL}}"/>
-        <a href="#"><h3>{{name}}</h3></a>
+        <a href="country/{{name}}" method="get" action="/country"><h3>{{name}}</h3></a>
         <p>{{description}}</p>
         <hr>
     {{/each}}
@@ -55,6 +55,7 @@
       <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
+    
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
@@ -73,7 +74,7 @@
         <img src="http://www.gratisography.com/pictures/340_1.jpg" alt="Flower" width="460" height="345">
       </div>
     </div>
-
+    
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
