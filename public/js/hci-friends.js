@@ -12,6 +12,9 @@ function initializePage() {
 	console.log("Javascript connected!");
 
 	$(".friend a").click(projectClick);
+	$(".friend a").click(countryClick); 
+
+	
 }
 
 function projectClick(e) {
@@ -19,6 +22,10 @@ function projectClick(e) {
 	var name = $(this).text();
 	$(this).text(anagrammedName(name));
 
+}
+
+function countryClick(e) {
+	return res.redirect('/country/' + e)
 }
 
 function anagrammedName(name) {
