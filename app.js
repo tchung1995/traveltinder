@@ -7,6 +7,8 @@ var http = require('http');
 var https=require('https');
 var path = require('path');
 var handlebars = require('express3-handlebars')
+var request = require('request');
+var router = express.Router();
 
 var index = require('./routes/index');
 // Example route
@@ -42,6 +44,8 @@ app.get('/', index.view);
 // app.get('/users', user.list);
 app.get('/add', add.addFriend);
 app.get('/country/:name', country.searchCountry);
+
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
