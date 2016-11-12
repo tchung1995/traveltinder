@@ -3,32 +3,44 @@
 		{
 			"name": "China",
 			"description": "get down wit ling ling",
-			"imageURL": "http://www.gratisography.com/pictures/299_1.jpg"			
+			"imageURL": "http://www.gratisography.com/pictures/299_1.jpg",
+			"longitude": "sdf",
+			"latitude":	"sdf"		
 		},
 		{
 			"name": "Mexico",
 			"description": "taco bout it with jose",
-			"imageURL": "http://www.gratisography.com/pictures/342_1.jpg"			
+			"imageURL": "http://www.gratisography.com/pictures/342_1.jpg",
+			"longitude": "sdf",
+			"latitude":	"sdf"			
 		},
 		{
 			"name": "Canada",
 			"description": "how a-boat that trump eh?",
-			"imageURL": "http://www.gratisography.com/pictures/283_1.jpg"			
+			"imageURL": "http://www.gratisography.com/pictures/283_1.jpg",
+			"longitude": "sdf",
+			"latitude":	"sdf"			
 		},
 		{
 			"name": "England",
 			"description": "tea time with the queen",
-			"imageURL": "http://www.gratisography.com/pictures/305_1.jpg"			
+			"imageURL": "http://www.gratisography.com/pictures/305_1.jpg",
+			"longitude": "sdf",
+			"latitude":	"sdf"			
 		},
 		{
 			"name": "Singapore",
 			"description": "sing-a more at karaoke",
-			"imageURL": "http://www.gratisography.com/pictures/337_1.jpg"
+			"imageURL": "http://www.gratisography.com/pictures/337_1.jpg",
+			"longitude": "sdf",
+			"latitude":	"sdf"
 		},
 		{
 			"name": "Italy",
 			"description": "mom's spaghetti",
-			"imageURL": "http://www.gratisography.com/pictures/286_1.jpg"
+			"imageURL": "http://www.gratisography.com/pictures/286_1.jpg",
+			"longitude": "sdf",
+			"latitude":	"sdf"
 		}
 	]
 }
