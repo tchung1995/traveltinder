@@ -324,17 +324,17 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
   , wrap: true
   }
 
-  Carousel.prototype.cycle =  function (e) {
-    e || (this.paused = false)
+  // Carousel.prototype.cycle =  function (e) {
+  //   e || (this.paused = false)
 
-    this.interval && clearInterval(this.interval)
+  //   this.interval && clearInterval(this.interval)
 
-    this.options.interval
-      && !this.paused
-      && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
+  //   this.options.interval
+  //     && !this.paused
+  //     && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
 
-    return this
-  }
+  //   return this
+  // }
 
   Carousel.prototype.getActiveIndex = function () {
     this.$active = this.$element.find('.item.active')
