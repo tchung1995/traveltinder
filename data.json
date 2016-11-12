@@ -1,34 +1,34 @@
 {
 	"friends": [
 		{
-			"name": "Doug Engelbart",
-			"description": "Has awesome pet mice",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"name": "China",
+			"description": "get down wit ling ling",
+			"imageURL": "http://www.gratisography.com/pictures/299_1.jpg"			
 		},
 		{
-			"name": "Ivan Sutherland",
-			"description": "Great at sketching",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg"			
+			"name": "Mexico",
+			"description": "taco bout it with jose",
+			"imageURL": "http://www.gratisography.com/pictures/342_1.jpg"			
 		},
 		{
-			"name": "Lucy Suchman",
-			"description": "Loves Trukese navigators",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/d/df/Lucy_Suchman.jpeg"			
+			"name": "Canada",
+			"description": "how a-boat that trump eh?",
+			"imageURL": "http://www.gratisography.com/pictures/283_1.jpg"			
 		},
 		{
-			"name": "Vannevar Bush",
-			"description": "Has stellar associative memory",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Vannevar_Bush_portrait.jpg"			
+			"name": "England",
+			"description": "tea time with the queen",
+			"imageURL": "http://www.gratisography.com/pictures/305_1.jpg"			
 		},
 		{
-			"name": "Grace Hopper",
-			"description": "Only friend with a Navy ship named after them",
-			"imageURL": "http://www.personal.psu.edu/djd5202/gHop.jpg"
+			"name": "Singapore",
+			"description": "sing-a more at karaoke",
+			"imageURL": "http://www.gratisography.com/pictures/337_1.jpg"
 		},
 		{
-			"name": "Allen Newell",
-			"description": "Really into psychology",
-			"imageURL": "http://www.nap.edu/html/biomems/photo/anewell.JPG"
+			"name": "Italy",
+			"description": "mom's spaghetti",
+			"imageURL": "http://www.gratisography.com/pictures/286_1.jpg"
 		}
 	]
 }
