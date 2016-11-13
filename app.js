@@ -10,6 +10,7 @@ var handlebars = require('express3-handlebars')
 var request = require('request');
 var router = express.Router();
 
+
 var index = require('./routes/index');
 // Example route
 // var user = require('./routes/user');
@@ -17,12 +18,14 @@ var add = require('./routes/add');
 var country = require('./routes/country');
 
 var app = express();
+app.set('view engine', 'ejs');
+
 
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', handlebars());
-app.set('view engine', 'handlebars');
+//app.engine('handlebars', handlebars());
+//app.set('view engine', 'handlebars');
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());

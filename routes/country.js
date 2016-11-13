@@ -1,5 +1,6 @@
 var data = require("../data.json");
 var request = require('request');
+
 //var router = express.Router();
 //var request = require('request');
 exports.searchCountry = function(req, res) {
@@ -28,16 +29,20 @@ request.get("https://api.sandbox.amadeus.com/v1.2/hotels/search-circle?apikey=71
         if (response.statusCode != 200) {
         	console.log("error");
         }
-        //console.log(data1);
+        console.log(data1);
         //console.log(data1[results][0][property_name]);
         var hotelinfo = JSON.parse(data1);
         property = hotelinfo["results"][0]["property_name"];
         address = hotelinfo["results"][0]["address"];
         //console.log(hotelInfo[results][0][property_name]);
+        console.log(property + address);
+         res.render('country', { propertyname:property,
+              address:address});
 	});
 
-var data2 = { property_name:property,
-              address:address};
+//res.render('country', { propertyname:"property",
+//              address:address});
+//var data2 = JSON.stringify();
 
  //console.log(country);
 
@@ -47,6 +52,6 @@ var data2 = { property_name:property,
 
 
 
- res.render('country', data2);
+
 };
 
